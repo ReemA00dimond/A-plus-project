@@ -129,7 +129,7 @@
             <!-- add a question button -->
             <section class="add-q">
                 <h3>لم تجد سؤالك المطلوب ؟</h3>
-                <a href="">اضف سؤال</a>
+                <a href="" class="main-btn">اضف سؤال</a>
             </section>
         </div>
         <!-- footer  -->

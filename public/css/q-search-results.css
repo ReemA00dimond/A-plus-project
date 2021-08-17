@@ -1,91 +1,89 @@
 /* heading titles */
 h3 {
-  color: #78cab7;
-  font-weight: bold;
-  text-align: center;
-  margin-top: 30px;
-  margin-bottom: 30px;
+    color: #78cab7;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 /* question card */
 .q-card {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 30px;
 }
 /* user image */
 .q-user-img {
-  width: fit-content;
-  align-self: flex-start;
-  border-radius: 50%;
+    width: fit-content;
+    align-self: flex-start;
+    border-radius: 50%;
 }
 .q-user-img img {
-  width: 60px;
-  height: 60px;
-  align-self: flex-start;
-  border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    align-self: flex-start;
+    border-radius: 50%;
 }
 /* question content */
 .q-content {
-  width: 80%;
-  background-color: #fff;
-  box-shadow: 0px 3px 6px #00000014;
-  border-radius: 16px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  padding: 20px;
-  color: #969a99;
+    width: 80%;
+    background-color: #fff;
+    box-shadow: 0px 3px 6px #00000014;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px;
+    color: #969a99;
 }
 /* date */
 .q-date {
-  align-self: flex-end;
-  color: #969a99;
+    align-self: flex-end;
+    color: #969a99;
 }
 .q-date i {
-  color: #78cab7;
+    color: #78cab7;
 }
 /* interactions */
 .q-interactions {
-  display: flex;
-  color: #78cab7;
-  flex-wrap: wrap;
-  width: fit-content;
-  justify-content: space-evenly;
+    display: flex;
+    color: #78cab7;
+    flex-wrap: wrap;
+    width: fit-content;
+    justify-content: space-evenly;
 }
 .q-interactions p {
-  padding-left: 20px;
+    padding-left: 20px;
 }
 /* tags */
 .q-tags {
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
 }
 .q-tag {
-  width: 60px;
-  text-align: center;
-  background-color: #ecefee;
-  padding-top: 10px;
-  margin-left: 20px;
-  margin-bottom: 20px;
+    width: 60px;
+    text-align: center;
+    background-color: #ecefee;
+    padding-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 20px;
 }
 .q-tag p {
-  text-align: center;
+    text-align: center;
 }
 /* add a question button   */
 .add-q {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 }
 .add-q a {
-  background-color: #f8db77;
-  text-decoration: none;
-  padding: 10px 30px;
-  border-radius: 5px;
-  color: #707070;
-  margin-bottom: 30px;
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 5px;
+    margin-bottom: 30px;
 }

@@ -3,6 +3,13 @@ body {
     font-family: "Tajawal", sans-serif;
     background-color: #f5f5f5;
 }
+.main-btn {
+    color: #fff;
+    background-color: #8695a8;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+}
 /* navigation bar */
 nav,
 .navbar,

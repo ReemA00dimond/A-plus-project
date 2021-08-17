@@ -133,11 +133,9 @@ h3 {
     align-items: center;
 }
 .add-q a {
-    background-color: #f8db77;
     text-decoration: none;
     padding: 10px 30px;
     border-radius: 5px;
-    color: #707070;
     margin-bottom: 30px;
 }
 /* Large Screens */
