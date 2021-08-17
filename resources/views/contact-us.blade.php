@@ -13,8 +13,11 @@
             rel="stylesheet"
         />
         <!-- favicon -->
-        <link rel="shortcut icon" type="image/jpg" href="logo A+.svg" />
-
+        <link
+            rel="shortcut icon"
+            type="image/jpg"
+            href="images/logo-a-plus.svg"
+        />
         <!-- font awesome -->
         <link
             rel="stylesheet"
@@ -32,125 +35,75 @@
             crossorigin="anonymous"
         />
         <!-- css style -->
-        <link rel="stylesheet" href="home-style.css" />
-        <link rel="stylesheet" href="Addq-style.css" />
-        <title>صفحة إضافة سؤال</title>
+        <link rel="stylesheet" href="css/common-style.css" />
+        <link rel="stylesheet" href="css/contact-us.css" />
+        <title>تواصل معنا</title>
     </head>
 
     <body>
         <!-- navigation bar -->
-        <nav>
-            <div class="nav-center">
-                <div><img src="logo A+.svg" alt="logo" /></div>
-                <div class="nav-links">
-                    <a href="http://" class="active">الرئيسية</a>
-                    <a href="http://">عن المنصة</a>
-                    <a href="http://">حسابي</a>
-                </div>
-            </div>
-        </nav>
+        @include('nav')
 
         <div class="container">
             <!-- page content -->
-
-            <h3 class="Addq__titles">أضف محتوى</h3>
+            <h3 class="heading-title">تواصل معنا</h3>
             <div class="classification">
-                <div><h5>تصنيف المحتوى</h5></div>
                 <div>
-                    <input
-                        type="radio"
-                        id="qus"
-                        name="question-radio"
-                        value=""
-                    />
-                      <label for="question">سؤال</label><br />
+                    <input type="radio" id="inquiry" name="Content" value="" />
+                      <label for="inquiry">استفسار</label><br />
                 </div>
 
                 <div>
                     <input
                         type="radio"
-                        id="cont"
-                        name="question-radio"
+                        id="Suggestion"
+                        name="Content"
                         value=""
                     />
-                      <label for="Content">محتوى</label><br />
+                      <label for="Suggestion">مقترح</label><br />
+                </div>
+                 
+                <div>
+                    <input
+                        type="radio"
+                        id="complaint"
+                        name="Content"
+                        value=""
+                    />
+                      <label for="complaint">شكوى</label><br />
                 </div>
                  
             </div>
 
-            <!-- part of question -->
-            <div class="question-details-parent">
-                <div class="question-details">
-                    <form class="q_title">
-                        <label for="qtext"> عنوان السؤال</label>
+            <!-- message content -->
+            <div class="message-content-parent">
+                <div class="message-content">
+                    <form class="message_title">
+                        <label for="message-title"> عنوان الرسالة</label>
                         <input
                             type="text"
-                            name="q-title-keywords"
-                            id="q-title-box"
+                            name="message-title"
+                            id="message-title"
                         />
                     </form>
 
-                    <form class="q_content">
-                        <label for="qcont">نص السؤال</label>
+                    <form class="message-text">
+                        <label for="message-text">نص الرسالة</label>
 
                         <textarea
-                            id="q-cont"
-                            name="q-cont"
-                            name="q-content-keywords"
-                        >
-                        </textarea>
+                            id="message-text"
+                            name="message-text"
+                            name="message-text"
+                        ></textarea>
                         <br /><br />
                     </form>
                 </div>
             </div>
-            <div class="selection-parent">
-                <div class="selection">
-                    <div class="first">
-                        <select name="majors" id="majors">
-                            <option value="" disabled selected>التخصص</option>
-                            <option value="cs">علوم حاسب</option>
-                            <option value="is">نظم معلومات</option>
-                        </select>
-                    </div>
-
-                    <div class="second">
-                        <select name="course" id="course">
-                            <option value="" disabled selected>المقرر</option>
-                            <option value="java">البرمجة بلغة الجافا</option>
-                            <option value="c++">البرمجة بلغة الC++</option>
-                        </select>
-                    </div>
-
-                    <div class="third">
-                        <select name="tag" id="tag">
-                            <option value="" disabled selected>الوسوم</option>
-                            <option value="c++">#C++</option>
-                            <option value="java">#جافا</option>
-                        </select>
-                    </div>
-                </div>
-            </div>
-            <section class="add-q">
-                <a href="">اضف سؤال</a>
+            <section class="message-btn">
+                <a href="">إرسال</a>
             </section>
         </div>
         <!-- footer  -->
-        <footer>
-            <section>
-                <a href="http://">سياسة المستخدم</a>
-                <a href="http://">الخصوصية</a>
-                <a href="http://">الأسئلة الشائعة</a>
-            </section>
-            <section class="footer-contact">
-                <a href="http://"><img src="facebook.svg" alt="facebook" /></a>
-                <a href="http://"
-                    ><img src="instagram.svg" alt="instagram"
-                /></a>
-                <a href="http://"><img src="twitter.svg" alt="twitter" /></a>
-            </section>
-            <section>
-                <p>جميع الحقوق محفوظة لـ A+</p>
-            </section>
-        </footer>
+        @include('footer')
     </body>
 </html>

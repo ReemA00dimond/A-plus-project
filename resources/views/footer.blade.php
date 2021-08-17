@@ -6,9 +6,10 @@
         <a href="http://">تواصل معنا</a>
     </section>
     <section class="footer-contact">
-        <a href="http://"><img src="images/facebook.svg" alt="facebook" /></a>
         <a href="http://"><img src="images/instagram.svg" alt="instagram" /></a>
-        <a href="http://"><img src="images/twitter.svg" alt="twitter" /></a>
+        <a href="http://"
+            ><img class="twitter" src="images/twitter.svg" alt="twitter"
+        /></a>
     </section>
     <section>
         <p>جميع الحقوق محفوظة لـ A+</p>

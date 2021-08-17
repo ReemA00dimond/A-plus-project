@@ -119,7 +119,7 @@ body {
     height: 14em;
     width: 12em;
     display: flex;
-    flex-direction: column;
+    flex-flow: column;
     align-items: center;
     justify-content: space-evenly;
 }

@@ -1,11 +1,5 @@
-body {
-    text-align: right;
-    font-family: "Tajawal", sans-serif;
-    background-color: #fafafa;
-}
-
 /* main content */
-.Addq__titles {
+.heading-title {
     color: #78cab7;
     font-weight: bold;
     margin-top: 50px;
@@ -30,40 +24,40 @@ h5 {
     font-weight: bold;
 }
 /* question details */
-.question-details {
+.message-content {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     width: 80%;
 }
-.question-details div {
+.message-content div {
     width: 100%;
 }
-.q_title label,
-.q_content label {
+.message_title label,
+.message-text label {
     display: block;
     color: #b4b2b2;
 }
-.question-details-parent,
+.message-content-parent,
 .selection-parent {
     width: 100%;
     display: flex;
     justify-content: center;
 }
-.question-details-parent form {
+.message-content-parent form {
     width: 100%;
 }
-.question-details-parent form textarea,
-.question-details-parent form input {
+.message-content-parent form textarea,
+.message-content-parent form input {
     width: 100%;
     background: #ecefee 0% 0% no-repeat padding-box;
     border: 0.5px solid #969a99;
 }
-.question-details-parent form textarea {
-    height: 100px;
+.message-content-parent form textarea {
+    height: 190px;
     resize: none;
 }
-.q_content {
+.message-text {
     margin-top: 20px;
 }
 /* selection */
@@ -88,20 +82,21 @@ h5 {
     border: 0.5px solid #969a99;
 }
 /* submit button */
-.add-q {
+.message-btn {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
     margin-top: 4%;
 }
-.add-q a {
-    background-color: #f8db77;
+.message-btn a {
+    background-color: #8695a8;
     text-decoration: none;
     padding: 10px 30px;
     border-radius: 5px;
-    color: #707070;
+    color: #fff;
     margin-bottom: 30px;
+    font-weight: bold;
 }
 
 /* Small Screens */
