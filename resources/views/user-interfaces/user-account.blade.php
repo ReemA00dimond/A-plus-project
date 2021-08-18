@@ -45,7 +45,7 @@
 
     <body>
         <!-- navigation bar -->
-        @include('nav')
+        @include('user-interfaces.nav')
         <div class="container">
             <h3 class="heading-titles">حسابي</h3>
             <div class="d-flex flex-container">
@@ -97,12 +97,13 @@
                                 placeholder="البيانات"
                             />
                         </div>
+                        <a href="" class="main-btn">حفظ</a>
                     </form>
                 </div>
             </div>
         </div>
 
         <!-- footer  -->
-        @include('footer')
+        @include('user-interfaces.footer')
     </body>
 </html>

@@ -1,41 +1,55 @@
 body {
     text-align: right;
     font-family: "Tajawal", sans-serif;
-    background-color: black;
+    background-color: #fafafa;
 }
 
 /* text bellow the image */
-h3 {
+h4 {
     color: #78cab7;
     font-weight: bold;
     text-align: center;
     margin-top: 30px;
     margin-bottom: 30px;
-    background-color: maroon;
-}
-.container {
-    background-color: #78cab7;
 }
 /* image */
-.q-done {
-    background-color: #78cab7;
-    width: 600px;
-    height: 500px;
+.image-done {
+    display: flex;
+    justify-content: center;
+}
+
+.image-done img {
+    width: 200px;
 }
 
 /* buttons */
 .q-button {
-    background-color: maroon;
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    /* margin-top: 4%; */
-
-    background-color: #f8db77;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
     text-decoration: none;
     padding: 10px 30px;
     border-radius: 5px;
     color: #707070;
     margin-bottom: 30px;
+}
+.q-button a {
+    background-color: #8695a8;
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 5px;
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+
+.q-button a:first-of-type {
+    margin-left: 4%;
+}
+
+/* Small Screens */
+@media only screen and (max-width: 600px) {
+    .q-button a:first-of-type {
+        margin-left: 0%;
+    }
 }

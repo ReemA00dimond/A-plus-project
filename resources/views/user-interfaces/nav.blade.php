@@ -10,7 +10,7 @@
     >
         <span class="navbar-toggler-icon"></span>
     </button>
-    <div><img src="images/logo-a-plus.svg" alt="logo" width="100px" /></div>
+    <div><img src="images/logo-a-plus.svg" alt="logo" /></div>
 
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">

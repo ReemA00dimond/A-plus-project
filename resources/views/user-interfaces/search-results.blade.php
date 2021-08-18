@@ -45,7 +45,7 @@
     </head>
     <body>
         <!-- navigation bar -->
-        @include('nav')
+        @include('user-interfaces.nav')
         <section class="results-header">
             <h3>نتائج البحث</h3>
             <section class="search-filter">
@@ -133,6 +133,6 @@
             </section>
         </div>
         <!-- footer  -->
-        @include('footer')
+        @include('user-interfaces.footer')
     </body>
 </html>

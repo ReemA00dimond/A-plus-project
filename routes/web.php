@@ -14,7 +14,10 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('search-results');
+    return view('user-interfaces.volunteer-hours');
+});
+Route::get('/test', function () {
+    return view('user-interfaces.home');
 });
 
 Auth::routes();

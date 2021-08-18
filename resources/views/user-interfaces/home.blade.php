@@ -33,7 +33,6 @@
         <!-- css style -->
         <link rel="stylesheet" href="css/common-style.css" />
         <link rel="stylesheet" href="css/home-style.css" />
-        <link rel="stylesheet" href="css/logged-in-home.css" />
 
         <!-- favicon -->
         <link
@@ -47,23 +46,23 @@
 
     <body>
         <!-- navigation bar -->
-        @include('nav')
+        @include('user-interfaces.nav')
         <div class="home__content-center container">
             <!-- header -->
             <header class="home__header">
                 <section class="header-description">
-                    <h1>أهلاً محمد</h1>
+                    <h1>منصة <sup>+</sup>A</h1>
                     <p>
-                        هنا مساحتك الخاصة في المنصة <br />
-                        نتمنى لك تجربة تعليمية ممتعة
+                        أول منصة تعليمية تضم أكبــر <br />
+                        تجمع طلابي يتشارك المعرفة
                     </p>
                     <div>
-                        <a href="http://">اجب سؤال</a>
-                        <a href="http://">أضف محتوى</a>
+                        <a href="http://" class="main-btn">إنشاء حساب</a>
+                        <a href="http://" class="main-btn">تسجيل دخول</a>
                     </div>
                 </section>
                 <section>
-                    <img src="images/major-header-icon.svg" alt="header-icon" />
+                    <img src="images/header-icon.svg" alt="header-icon" />
                 </section>
             </header>
 
@@ -79,64 +78,56 @@
                 <a href="http://"> ابحث <i class="fas fa-search"></i> </a>
             </section>
 
-            <!-- subjects panel -->
-            <h3 class="home__titles">المقررات</h3>
-            <section class="home__subject">
-                <div class="home__subject-parent">
-                    <div class="home__subject-card">
-                        <p>اسم المقرر</p>
+            <!-- majors panel -->
+            <h3 class="home__titles">التخصصات</h3>
+            <section class="home__majors">
+                <div class="home__majors-parent">
+                    <div class="home__majors-card">
+                        <img src="images/major-icon-1.svg" alt="major image" />
+                        <h4>الشريعة</h4>
                     </div>
-                    <div class="home__subject-card">
-                        <p>اسم المقرر</p>
+                    <div class="home__majors-card">
+                        <img src="images/major-icon-1.svg" alt="major image" />
+                        <h4>الشريعة</h4>
                     </div>
-                    <div class="home__subject-card">
-                        <p>اسم المقرر</p>
-                    </div>
-                    <div class="home__subject-card">
-                        <p>اسم المقرر</p>
+                    <div class="home__majors-card">
+                        <img src="images/major-icon-1.svg" alt="major image" />
+                        <h4>الشريعة</h4>
                     </div>
                 </div>
             </section>
 
-            <!-- videos panel -->
-            <h3 class="home__titles">التخصصات</h3>
-            <section class="home__videos">
-                <div class="home__videos-parent">
-                    <div class="home__videos-card">
-                        <i class="fas fa-bookmark"></i>
-                        <img src="images/major-icon-1.svg" alt="major image" />
-                        <p>العنوان</p>
-                        <time dir="rtl" datetime="2012-12-08"
-                            ><i class="far fa-calendar"></i> 8 Dec 2012 - 8:12
-                            PM
-                        </time>
-                        <p><i class="far fa-eye"></i> 307 مشاهدة</p>
-                    </div>
-                    <div class="home__videos-card">
-                        <i class="fas fa-bookmark"></i>
-                        <img src="images/major-icon-1.svg" alt="major image" />
-                        <p>العنوان</p>
-                        <time dir="rtl" datetime="2012-12-08"
-                            ><i class="far fa-calendar"></i> 8 Dec 2012 - 8:12
-                            PM
-                        </time>
-                        <p><i class="far fa-eye"></i> 307 مشاهدة</p>
-                    </div>
-                    <div class="home__videos-card">
-                        <i class="fas fa-bookmark"></i>
-                        <img src="images/major-icon-1.svg" alt="major image" />
-                        <p>العنوان</p>
-                        <time dir="rtl" datetime="2012-12-08"
-                            ><i class="far fa-calendar"></i> 8 Dec 2012 - 8:12
-                            PM
-                        </time>
-                        <p><i class="far fa-eye"></i> 307 مشاهدة</p>
-                    </div>
+            <!-- numbers panel -->
+            <h3 class="home__titles">المنصة بالأرقام</h3>
+            <section class="home__numbers">
+                <!-- #1 -->
+                <div>
+                    <img src="images/stats-1.svg" alt="" />
+                    <h4 class="number">3420</h4>
+                    <h4>مشترك</h4>
+                </div>
+                <!-- #2 -->
+                <div>
+                    <img src="images/stats-2.svg" alt="" />
+                    <h4 class="number">3420</h4>
+                    <h4>مشاركة</h4>
+                </div>
+                <!-- #3 -->
+                <div>
+                    <img src="images/stats-3.svg" alt="" />
+                    <h4 class="number">3420</h4>
+                    <h4>زائر</h4>
+                </div>
+                <!-- #4 -->
+                <div>
+                    <img src="images/stats-4.svg" alt="" />
+                    <h4 class="number">3420</h4>
+                    <h4>تخصص</h4>
                 </div>
             </section>
         </div>
 
         <!-- footer  -->
-        @include('footer')
+        @include('user-interfaces.footer')
     </body>
 </html>

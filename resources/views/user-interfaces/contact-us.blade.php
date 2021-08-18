@@ -42,7 +42,7 @@
 
     <body>
         <!-- navigation bar -->
-        @include('nav')
+        @include('user-interfaces.nav')
 
         <div class="container">
             <!-- page content -->
@@ -104,6 +104,6 @@
             </section>
         </div>
         <!-- footer  -->
-        @include('footer')
+        @include('user-interfaces.footer')
     </body>
 </html>

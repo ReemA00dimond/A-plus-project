@@ -1,0 +1,100 @@
+/* heading titles */
+h3 {
+    color: #78cab7;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+/* question card */
+.q-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px #ecefee solid;
+    padding-bottom: 15px;
+
+    margin-bottom: 30px;
+}
+/* user image */
+.q-user-img {
+    width: 55px;
+    height: 55px;
+    align-self: flex-start;
+    border-radius: 50%;
+    background-color: blue;
+}
+.q-user-img p {
+    color: #fff;
+    font-size: 1.3em;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* question content */
+.q-container {
+    background-color: #fff;
+    box-shadow: 0px 3px 6px #00000014;
+    border-radius: 16px;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+.q-content {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: #969a99;
+}
+
+/* interactions */
+.right-div {
+    text-align: center;
+}
+.q-interactions {
+    padding-top: 10px;
+}
+.q-interactions a {
+    color: #969a99;
+    text-decoration: none;
+    text-align: center;
+}
+.show-q-btn {
+    align-self: flex-end;
+}
+.show-q-btn a {
+    color: #78cab7;
+}
+.show-q-btn a i {
+    color: #acacac;
+}
+/* Large Screens */
+@media (min-width: 901px) {
+    .q-content {
+        width: 80%;
+    }
+    .q-user-img {
+        width: 70px;
+        height: 70px;
+    }
+}
+/* Medium Screens */
+@media (min-width: 600px) and (max-width: 900px) {
+    .q-content {
+        width: 80%;
+    }
+    .q-user-img {
+        width: 70px;
+        height: 70px;
+    }
+}
+@media (max-width: 280px) {
+    .q-user-img {
+        width: 40px;
+        height: 40px;
+    }
+}

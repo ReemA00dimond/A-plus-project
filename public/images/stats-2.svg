@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="117.178" height="117.178" viewBox="0 0 117.178 117.178">
+  <g id="Group_1609" data-name="Group 1609" transform="translate(-756.118 -3195.236)">
+    <g id="Group_1566" data-name="Group 1566" transform="translate(757.118 3196)">
+      <path id="Path_1201" data-name="Path 1201" d="M57.589,0A57.589,57.589,0,1,1,0,57.589,57.589,57.589,0,0,1,57.589,0Z" transform="translate(0 0.236)" fill="none" stroke="#78cab7" stroke-width="2"/>
+      <path id="Path_1202" data-name="Path 1202" d="M53.832,0A53.833,53.833,0,1,1,0,53.833,53.832,53.832,0,0,1,53.832,0Z" transform="translate(3.757 3.993)" fill="none" stroke="#78cab7" stroke-width="1" stroke-dasharray="1"/>
+    </g>
+    <path id="Icon_material-question-answer" data-name="Icon material-question-answer" d="M55.562,14.066H50.029v24.9H14.066V44.5a2.775,2.775,0,0,0,2.766,2.766h30.43L58.328,58.328v-41.5A2.775,2.775,0,0,0,55.562,14.066ZM44.5,30.664V5.766A2.775,2.775,0,0,0,41.73,3H5.766A2.775,2.775,0,0,0,3,5.766V44.5L14.066,33.43H41.73A2.775,2.775,0,0,0,44.5,30.664Z" transform="translate(784.043 3224.668)" fill="none" stroke="#8695a8" stroke-width="4"/>
+  </g>
+</svg>
