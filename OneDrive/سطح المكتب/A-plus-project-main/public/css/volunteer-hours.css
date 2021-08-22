@@ -1,0 +1,132 @@
+/* main content */
+.vol-content-container {
+    background-color: #fff;
+    box-shadow: 0px 3px 6px #00000014;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 27px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+.vol-content-container p {
+    color: #969a99;
+}
+.single-chart h4 {
+    color: #8695a8;
+    margin-bottom: 20px;
+}
+.heading-titles {
+    color: #78cab7;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.vol-flex-container {
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.vol-account-nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.vol-account-nav a {
+    padding: 7px 15px;
+    width: 100%;
+    box-shadow: 0px 3px 6px #00000014;
+    border-radius: 10px;
+    color: #b4b2b2;
+    background-color: #fff;
+    text-decoration: none;
+}
+
+.account-active {
+    background-color: #8695a8 !important;
+    color: #fff !important;
+    font-weight: bold;
+}
+
+/* stats circles */
+
+.single-chart {
+    width: 150px;
+    justify-content: space-around;
+}
+
+.circular-chart {
+    display: block;
+    margin: 10px auto;
+    max-width: 80%;
+    max-height: 250px;
+}
+
+.circle-bg {
+    fill: none;
+    stroke: #eee;
+    stroke-width: 3.8;
+}
+
+.circle {
+    fill: none;
+    stroke-width: 2.8;
+    stroke-linecap: round;
+    animation: progress 1s ease-out forwards;
+}
+
+@keyframes progress {
+    0% {
+        stroke-dasharray: 0 100;
+    }
+}
+
+.circular-chart.orange .circle {
+    stroke: #78cab7;
+}
+
+.percentage {
+    fill: #8695a8;
+    font-family: sans-serif;
+    font-size: 0.5em;
+    text-anchor: middle;
+}
+.disabled {
+    color: #fff;
+    background-color: #b4b2b2;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.main-btn,
+.disabled {
+    padding: 7px 15px;
+    margin-bottom: 20px;
+}
+
+/* Medium Screens */
+@media (min-width: 600px) and (max-width: 992px) {
+    .vol-account-nav {
+        width: 90%;
+    }
+    .vol-account-nav a {
+        margin-bottom: 20px;
+    }
+    .vol-content-container {
+        width: 90%;
+    }
+}
+/* Small Screens */
+@media only screen and (max-width: 600px) {
+    .vol-account-nav {
+        width: 90%;
+    }
+    .vol-account-nav a {
+        margin-bottom: 20px;
+    }
+    .vol-content-container {
+        width: 90%;
+    }
+}

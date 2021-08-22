@@ -1,0 +1,101 @@
+/* main content */
+.content-container {
+    background-color: #fff;
+    box-shadow: 0px 3px 6px #00000014;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 27px;
+    width: 80%;
+}
+.content-container form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.heading-titles {
+    color: #78cab7;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.flex-container {
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.account-nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.account-nav a {
+    box-shadow: 0px 3px 6px #00000014;
+    padding: 7px 15px;
+    width: 100%;
+    border-radius: 10px;
+    color: #b4b2b2;
+    background-color: #fff;
+    text-decoration: none;
+}
+.field-wrapper {
+    border: 0.5px solid #969a99;
+    margin: 0px;
+    border-radius: 10px;
+    width: 80%;
+    margin-top: 40px;
+}
+.field-wrapper:last-of-type {
+    margin-bottom: 40px;
+}
+.field-wrapper label {
+    background: #f5f5f5 0% 0% no-repeat padding-box;
+    border: 0.5px solid #969a99;
+    border-radius: 10px;
+    width: 20%;
+    margin: 0px;
+    text-align: center;
+}
+.field-wrapper input {
+    border: none;
+    width: 50%;
+    outline: 0;
+}
+.account-active {
+    background-color: #8695a8 !important;
+    color: #fff !important;
+    font-weight: bold;
+}
+.main-btn {
+    padding: 7px 15px;
+    margin-bottom: 40px;
+}
+/* Medium Screens */
+@media (min-width: 600px) and (max-width: 992px) {
+    .account-nav {
+        width: 90%;
+    }
+    .account-nav a {
+        margin-bottom: 20px;
+    }
+    .content-container {
+        width: 90%;
+    }
+    .field-wrapper label {
+        width: 49%;
+    }
+}
+/* Small Screens */
+@media only screen and (max-width: 600px) {
+    .account-nav {
+        width: 90%;
+    }
+    .account-nav a {
+        margin-bottom: 20px;
+    }
+    .content-container {
+        width: 90%;
+    }
+    .field-wrapper label {
+        width: 100%;
+    }
+}

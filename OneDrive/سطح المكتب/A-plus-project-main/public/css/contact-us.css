@@ -1,0 +1,110 @@
+/* main content */
+.heading-title {
+    color: #78cab7;
+    font-weight: bold;
+    margin-top: 50px;
+}
+/* contnet classification */
+.classification {
+    color: #707070;
+    font-size: 1em;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 50px;
+}
+.classification div {
+    margin-left: 20px;
+}
+.classification div:first-of-type {
+    margin-left: 30px;
+}
+h5 {
+    font-weight: bold;
+}
+/* question details */
+.message-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 80%;
+}
+.message-content div {
+    width: 100%;
+}
+.message_title label,
+.message-text label {
+    display: block;
+    color: #b4b2b2;
+}
+.message-content-parent,
+.selection-parent {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.message-content-parent form {
+    width: 100%;
+}
+.message-content-parent form textarea,
+.message-content-parent form input {
+    width: 100%;
+    background: #ecefee 0% 0% no-repeat padding-box;
+    border: 0.5px solid #969a99;
+}
+.message-content-parent form textarea {
+    height: 190px;
+    resize: none;
+}
+.message-text {
+    margin-top: 20px;
+}
+/* selection */
+.selection {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    flex-wrap: wrap;
+}
+.selection .first select,
+.selection .second select {
+    width: 200px;
+    height: 40px;
+    background: #ecefee 0% 0% no-repeat padding-box;
+    border: 0.5px solid #969a99;
+}
+
+.selection .third select {
+    width: 350px;
+    height: 40px;
+    background: #ecefee 0% 0% no-repeat padding-box;
+    border: 0.5px solid #969a99;
+}
+/* submit button */
+.message-btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 4%;
+}
+.message-btn a {
+    background-color: #8695a8;
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 5px;
+    color: #fff;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+/* Small Screens */
+@media only screen and (max-width: 600px) {
+    .selection {
+        justify-content: center;
+    }
+    .selection .third select {
+        width: 200px;
+    }
+}

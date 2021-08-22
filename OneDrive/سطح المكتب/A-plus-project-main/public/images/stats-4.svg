@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="117.178" height="117.178" viewBox="0 0 117.178 117.178">
+  <g id="Group_1611" data-name="Group 1611" transform="translate(-432.118 -3195.236)">
+    <g id="Group_1566" data-name="Group 1566" transform="translate(433.118 3196)">
+      <path id="Path_1201" data-name="Path 1201" d="M57.589,0A57.589,57.589,0,1,1,0,57.589,57.589,57.589,0,0,1,57.589,0Z" transform="translate(0 0.236)" fill="none" stroke="#78cab7" stroke-width="2"/>
+      <path id="Path_1202" data-name="Path 1202" d="M53.832,0A53.833,53.833,0,1,1,0,53.833,53.832,53.832,0,0,1,53.832,0Z" transform="translate(3.757 3.993)" fill="none" stroke="#78cab7" stroke-width="1" stroke-dasharray="1"/>
+    </g>
+    <path id="Icon_ionic-md-book" data-name="Icon ionic-md-book" d="M54.523,5.677,31.505,10.005,8.487,5.677c-2.948-.46-5.112,2.286-5.112,5.085V43.829c0,2.8,2.164,4.409,5.112,5.085l23.018,4.314L54.523,48.9c2.948-.676,5.112-2.286,5.112-5.085V10.763C59.635,7.963,57.472,5.218,54.523,5.677Zm0,38.138L34.075,48.143V15.077l20.449-4.328ZM28.936,48.143,8.487,43.816V10.763L28.936,15.09Z" transform="translate(458.961 3225.904)" fill="#8695a8"/>
+  </g>
+</svg>

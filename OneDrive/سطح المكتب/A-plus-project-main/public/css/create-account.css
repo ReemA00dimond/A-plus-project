@@ -1,0 +1,8 @@
+.selectionMajor {
+    border-radius: 5px;
+    box-shadow: 0px 3px 6px #00000050;
+    border: 0.5px solid #969a99;
+    width: 100%;
+    height: 1.6em;
+    outline: 0;
+}

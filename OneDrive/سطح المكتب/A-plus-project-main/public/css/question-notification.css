@@ -1,0 +1,48 @@
+body {
+    text-align: right;
+    font-family: "Tajawal", sans-serif;
+    background-color: #fafafa;
+}
+
+/* text bellow the image */
+h4 {
+    color: #78cab7;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+/* image */
+.image-done {
+    display: flex;
+    justify-content: center;
+}
+
+.image-done img {
+    width: 200px;
+}
+
+/* buttons */
+.q-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 5px;
+    color: #707070;
+    margin-bottom: 30px;
+}
+.q-button a {
+    background-color: #8695a8;
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 5px;
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+
+.q-button a:first-of-type {
+    margin-left: 4%;
+}

@@ -1,0 +1,135 @@
+body {
+    text-align: right;
+    font-family: "Tajawal", sans-serif;
+    background-color: #fafafa;
+}
+
+/* main content */
+.Addq__titles {
+    color: #78cab7;
+    font-weight: bold;
+    margin-top: 50px;
+}
+/* contnet classification */
+.classification {
+    color: #707070;
+    font-size: 1em;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 50px;
+}
+.classification div {
+    margin-left: 20px;
+}
+.classification div:first-of-type {
+    margin-left: 30px;
+}
+h5 {
+    font-weight: bold;
+}
+/* question details */
+.question-details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 80%;
+}
+.question-details div {
+    width: 100%;
+}
+.q_title label,
+.q_content label {
+    display: block;
+    color: #b4b2b2;
+}
+.question-details-parent,
+.selection-parent {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.question-details-parent form {
+    width: 100%;
+}
+.question-details-parent form textarea,
+.question-details-parent form input {
+    width: 100%;
+    background: #ecefee 0% 0% no-repeat padding-box;
+    border: 0.5px solid #969a99;
+}
+.question-details-parent form textarea {
+    height: 100px;
+    resize: none;
+}
+.q_content {
+    margin-top: 20px;
+}
+/* selection */
+.selection {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    flex-wrap: wrap;
+}
+.selection .first select,
+.selection .second select {
+    width: 200px;
+    height: 40px;
+    background: #ecefee 0% 0% no-repeat padding-box;
+    border: 0.5px solid #969a99;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+.selection .third select {
+    width: 350px;
+    height: 40px;
+    background: #ecefee 0% 0% no-repeat padding-box;
+    border: 0.5px solid #969a99;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+/* check box */
+.box-parent {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.box {
+    color: #b4b2b2;
+    text-align: right;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+/* submit button */
+.add-q {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 4%;
+}
+.add-q a {
+    background-color: #8695a8;
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 5px;
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+
+/* Small Screens */
+@media only screen and (max-width: 600px) {
+    .selection {
+        justify-content: center;
+    }
+    .selection .third select {
+        width: 200px;
+    }
+}
