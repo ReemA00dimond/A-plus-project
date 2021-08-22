@@ -32,8 +32,7 @@
 
         <!-- css style -->
         <link rel="stylesheet" href="css/common-style.css" />
-        <link rel="stylesheet" href="css/home-style.css" />
-        <link rel="stylesheet" href="css/add-content.css" />
+        <link rel="stylesheet" href="css/style.css" />
 
         <!-- favicon -->
         <link
@@ -42,7 +41,7 @@
             href="images/logo-a-plus.svg"
         />
 
-        <title>صفحة إضافة سؤال</title>
+        <title>إضافة محتوى</title>
     </head>
 
     <body>
@@ -62,7 +61,7 @@
                         name="question-radio"
                         value=""
                     />
-                      <label for="question">سؤال</label><br />
+                      <label for="qus">سؤال</label><br />
                 </div>
 
                 <div>
@@ -72,7 +71,7 @@
                         name="question-radio"
                         value=""
                     />
-                      <label for="Content">محتوى</label><br />
+                      <label for="cont">محتوى</label><br />
                 </div>
                  
             </div>
@@ -81,7 +80,7 @@
             <div class="question-details-parent">
                 <div class="question-details">
                     <form class="q_title">
-                        <label for="qtext"> عنوان السؤال</label>
+                        <label for="qtext">العنوان</label>
                         <input
                             type="text"
                             name="q-title-keywords"
@@ -90,7 +89,7 @@
                     </form>
 
                     <form class="q_content">
-                        <label for="qcont">نص السؤال</label>
+                        <label for="qcont">النص</label>
 
                         <textarea
                             id="q-cont"
@@ -139,14 +138,17 @@
                             value=""
                         />
                         <label style="display: inline" for="agree">
-                            أقر بأني اطلعت على سياسة الإستخدام و أن المحتوى
-                            المنشور تحت مسؤوليتي بالكامل</label
+                            أقر بأني اطلعت على
+                            <a href="" style="color: #78cab7; font-weight: bold"
+                                >سياسة الإستخدام</a
+                            >
+                            و أن المحتوى المنشور تحت مسؤوليتي بالكامل</label
                         >
                     </form>
                 </section>
             </div>
             <section class="add-q">
-                <a href="" class="main-btn">اضف سؤال</a>
+                <a href="" class="main-btn">اضف</a>
             </section>
         </div>
         <!-- footer  -->

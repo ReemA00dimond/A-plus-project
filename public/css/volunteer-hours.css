@@ -1,5 +1,5 @@
 /* main content */
-.content-container {
+.vol-content-container {
     background-color: #fff;
     box-shadow: 0px 3px 6px #00000014;
     margin-top: 30px;
@@ -12,7 +12,7 @@
     align-items: center;
     text-align: center;
 }
-.content-container p {
+.vol-content-container p {
     color: #969a99;
 }
 .single-chart h4 {
@@ -25,16 +25,16 @@
     margin-top: 50px;
     margin-bottom: 30px;
 }
-.flex-container {
+.vol-flex-container {
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
-.account-nav {
+.vol-account-nav {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 }
-.account-nav a {
+.vol-account-nav a {
     padding: 7px 15px;
     width: 100%;
     box-shadow: 0px 3px 6px #00000014;
@@ -108,25 +108,25 @@
 
 /* Medium Screens */
 @media (min-width: 600px) and (max-width: 992px) {
-    .account-nav {
+    .vol-account-nav {
         width: 90%;
     }
-    .account-nav a {
+    .vol-account-nav a {
         margin-bottom: 20px;
     }
-    .content-container {
+    .vol-content-container {
         width: 90%;
     }
 }
 /* Small Screens */
 @media only screen and (max-width: 600px) {
-    .account-nav {
+    .vol-account-nav {
         width: 90%;
     }
-    .account-nav a {
+    .vol-account-nav a {
         margin-bottom: 20px;
     }
-    .content-container {
+    .vol-content-container {
         width: 90%;
     }
 }

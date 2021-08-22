@@ -32,8 +32,7 @@
 
         <!-- css style -->
         <link rel="stylesheet" href="css/common-style.css" />
-        <link rel="stylesheet" href="css/home-style.css" />
-        <link rel="stylesheet" href="css/logged-in-home.css" />
+        <link rel="stylesheet" href="css/style.css" />
 
         <!-- favicon -->
         <link
@@ -48,11 +47,14 @@
     <body>
         <!-- navigation bar -->
         @include('user-interfaces.nav')
-        <div class="home__content-center container">
+        <div
+            class="home__content-center container"
+            style="border-top: #e2b357 solid 15px"
+        >
             <!-- header -->
-            <header class="home__header">
+            <header class="logged__header home__header">
                 <section class="header-description">
-                    <h1>أهلاً محمد</h1>
+                    <h1 style="color: #6a7686">أهلاً محمد</h1>
                     <p>
                         هنا مساحتك الخاصة في المنصة <br />
                         نتمنى لك تجربة تعليمية ممتعة
@@ -68,7 +70,7 @@
             </header>
 
             <!-- quesion search panel -->
-            <h3 class="home__titles">إبحث عن سؤالك</h3>
+            <h3 class="home__titles logged__titles">إبحث عن سؤالك</h3>
             <section class="q-search__content">
                 <input
                     type="text"
@@ -80,26 +82,26 @@
             </section>
 
             <!-- subjects panel -->
-            <h3 class="home__titles">المقررات</h3>
-            <section class="home__subject">
-                <div class="home__subject-parent">
-                    <div class="home__subject-card">
-                        <p>اسم المقرر</p>
+            <h3 class="home__titles logged__titles">المقررات</h3>
+            <section class="logged__subject home__subject">
+                <div class="logged__subject-parent home__subject-parent">
+                    <div class="logged__subject-card">
+                        <a href="">اسم المقرر</a>
                     </div>
-                    <div class="home__subject-card">
-                        <p>اسم المقرر</p>
+                    <div class="logged__subject-card">
+                        <a href="">اسم المقرر</a>
                     </div>
-                    <div class="home__subject-card">
-                        <p>اسم المقرر</p>
+                    <div class="logged__subject-card">
+                        <a href="">اسم المقرر</a>
                     </div>
-                    <div class="home__subject-card">
-                        <p>اسم المقرر</p>
+                    <div class="logged__subject-card">
+                        <a href="">اسم المقرر</a>
                     </div>
                 </div>
             </section>
 
             <!-- videos panel -->
-            <h3 class="home__titles">التخصصات</h3>
+            <h3 class="home__titles logged__titles">احدث الشروحات</h3>
             <section class="home__videos">
                 <div class="home__videos-parent">
                     <div class="home__videos-card">

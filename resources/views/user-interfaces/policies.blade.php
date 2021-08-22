@@ -32,8 +32,7 @@
 
         <!-- css style -->
         <link rel="stylesheet" href="css/common-style.css" />
-        <link rel="stylesheet" href="css/home-style.css" />
-        <link rel="stylesheet" href="css/policies.css" />
+        <link rel="stylesheet" href="css/style.css" />
 
         <!-- favicon -->
         <link
@@ -48,7 +47,7 @@
     <body>
         <!-- navigation bar -->
         @include('user-interfaces.nav')
-        <div class="home__content-center container">
+        <div class="home__content-center policies__content-center container">
             <section class="policies">
                 <h3>سياسة الإستخدم</h3>
 

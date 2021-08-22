@@ -26,8 +26,8 @@ h4 {
 .q-button {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     justify-content: center;
+
     text-decoration: none;
     padding: 10px 30px;
     border-radius: 5px;
@@ -45,11 +45,4 @@ h4 {
 
 .q-button a:first-of-type {
     margin-left: 4%;
-}
-
-/* Small Screens */
-@media only screen and (max-width: 600px) {
-    .q-button a:first-of-type {
-        margin-left: 0%;
-    }
 }

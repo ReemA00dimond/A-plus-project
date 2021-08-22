@@ -36,7 +36,7 @@
         />
         <!-- css style -->
         <link rel="stylesheet" href="css/common-style.css" />
-        <link rel="stylesheet" href="css/contact-us.css" />
+        <link rel="stylesheet" href="css/style.css" />
         <title>تواصل معنا</title>
     </head>
 

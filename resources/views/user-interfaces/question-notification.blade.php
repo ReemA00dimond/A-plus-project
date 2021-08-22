@@ -32,7 +32,7 @@
 
         <!-- css style -->
         <link rel="stylesheet" href="css/common-style.css" />
-        <link rel="stylesheet" href="css/question-notification.css" />
+        <link rel="stylesheet" href="css/style.css" />
 
         <!-- favicon -->
         <link
@@ -41,7 +41,7 @@
             href="images/logo-a-plus.svg"
         />
 
-        <title>تم إضافة سؤال</title>
+        <title>تمت الإضافة بنجاح</title>
     </head>
     <body>
         <!-- navigation bar -->
@@ -53,11 +53,13 @@
                 <img src="images/question added.svg" alt="question added" />
             </section>
 
-            <h4>تمت إضافة سؤالك بنجاح</h4>
+            <h4 class="login-heading-h4">تمت الإضافة بنجاح</h4>
             <!-- view a question button -->
             <section class="q-button">
-                <a href="" class="main-btn">عرض السؤال</a>
-                <a href="" class="main-btn">جميع الأسئلة</a>
+                <a href="" class="main-btn">عرض المحتوى</a>
+                <a href="" class="main-btn" style="padding: 10px 40px"
+                    >عرض الكل</a
+                >
             </section>
         </div>
 

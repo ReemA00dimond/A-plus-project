@@ -6,44 +6,28 @@ h3 {
     margin-bottom: 30px;
 }
 /* question card */
-.q-card {
+.ans-card {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    border-bottom: 1px #ecefee solid;
     padding-bottom: 15px;
 
     margin-bottom: 30px;
 }
-/* user image */
-.q-user-img {
-    width: 55px;
-    height: 55px;
-    align-self: flex-start;
-    border-radius: 50%;
-    background-color: blue;
+.answer-card {
+    border-bottom: 1px #ecefee solid;
 }
-.q-user-img p {
-    color: #fff;
-    font-size: 1.3em;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
+
 /* question content */
-.q-container {
+.ans-container {
     background-color: #fff;
     box-shadow: 0px 3px 6px #00000014;
     border-radius: 16px;
     padding: 30px;
     margin-bottom: 30px;
 }
-.q-content {
+.ans-content {
     width: 70%;
     display: flex;
     flex-direction: column;
@@ -55,10 +39,10 @@ h3 {
 .right-div {
     text-align: center;
 }
-.q-interactions {
+.ans-interactions {
     padding-top: 10px;
 }
-.q-interactions a {
+.ans-interactions a {
     color: #969a99;
     text-decoration: none;
     text-align: center;
@@ -74,27 +58,13 @@ h3 {
 }
 /* Large Screens */
 @media (min-width: 901px) {
-    .q-content {
+    .ans-content {
         width: 80%;
-    }
-    .q-user-img {
-        width: 70px;
-        height: 70px;
     }
 }
 /* Medium Screens */
 @media (min-width: 600px) and (max-width: 900px) {
-    .q-content {
+    .ans-content {
         width: 80%;
-    }
-    .q-user-img {
-        width: 70px;
-        height: 70px;
-    }
-}
-@media (max-width: 280px) {
-    .q-user-img {
-        width: 40px;
-        height: 40px;
     }
 }

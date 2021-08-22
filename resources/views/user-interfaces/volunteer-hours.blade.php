@@ -32,7 +32,7 @@
 
         <!-- css style -->
         <link rel="stylesheet" href="css/common-style.css" />
-        <link rel="stylesheet" href="css/volunteer-hours.css" />
+        <link rel="stylesheet" href="css/style.css" />
 
         <!-- favicon -->
         <link
@@ -48,14 +48,14 @@
         @include('user-interfaces.nav')
         <div class="container">
             <h3 class="heading-titles">حسابي</h3>
-            <div class="d-flex flex-container">
-                <div class="account-nav">
+            <div class="d-flex vol-flex-container">
+                <div class="vol-account-nav">
                     <a href="">البيانات الشخصية</a>
                     <a href="">أسئلتي</a>
                     <a href="">محتواي</a>
                     <a href="" class="account-active">الساعات التطوعية</a>
                 </div>
-                <div class="content-container">
+                <div class="vol-content-container">
                     <div class="single-chart">
                         <svg viewBox="0 0 36 36" class="circular-chart orange">
                             <path

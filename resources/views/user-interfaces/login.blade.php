@@ -32,7 +32,7 @@
 
         <!-- css style -->
         <link rel="stylesheet" href="css/common-style.css" />
-        <link rel="stylesheet" href="css/login.css" />
+        <link rel="stylesheet" href="css/style.css" />
 
         <!-- favicon -->
         <link
@@ -41,7 +41,7 @@
             href="images/logo-a-plus.svg"
         />
 
-        <title>صفحة تسجيل الدخول</title>
+        <title>تسجيل الدخول</title>
     </head>
 
     <body>
@@ -51,7 +51,7 @@
         <div class="container">
             <div class="login-details">
                 <div class="login-card">
-                    <h4>تسجيل الدخول</h4>
+                    <h4 class="login-heading-h4">تسجيل الدخول</h4>
                     <form>
                         <label for="etext"> البريد الإلكتروني</label>
                         <input

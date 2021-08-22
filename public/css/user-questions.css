@@ -1,0 +1,72 @@
+.flex-container {
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+}
+.account-nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 30px;
+}
+.account-nav a {
+    margin-bottom: 80px;
+}
+.content-container {
+    overflow-y: scroll;
+    height: 90vh;
+    background-color: transparent;
+    box-shadow: none;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 27px;
+    width: 80%;
+}
+.q-content {
+    width: 100%;
+}
+/* add a question button   */
+.save-q {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.save-q a {
+    background-color: #8695a8;
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 5px;
+    color: #ffff;
+    margin-bottom: 30px;
+}
+/* Medium Screens */
+@media (min-width: 600px) and (max-width: 992px) {
+    .account-nav {
+        width: 90%;
+    }
+    .account-nav a {
+        margin-bottom: 20px;
+    }
+    .content-container {
+        width: 90%;
+    }
+    .field-wrapper label {
+        width: 49%;
+    }
+}
+/* Small Screens */
+@media only screen and (max-width: 600px) {
+    .account-nav {
+        width: 90%;
+    }
+    .account-nav a {
+        margin-bottom: 20px;
+    }
+    .content-container {
+        width: 90%;
+    }
+    .field-wrapper label {
+        width: 100%;
+    }
+}

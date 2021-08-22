@@ -32,7 +32,7 @@
 
         <!-- css style -->
         <link rel="stylesheet" href="css/common-style.css" />
-        <link rel="stylesheet" href="css/search-results.css" />
+        <link rel="stylesheet" href="css/style.css" />
 
         <!-- favicon -->
         <link
@@ -47,7 +47,9 @@
         <!-- navigation bar -->
         @include('user-interfaces.nav')
         <section class="results-header">
-            <h3>نتائج البحث</h3>
+            <h3 class="search-heading-h3" style="text-align: right">
+                نتائج البحث
+            </h3>
             <section class="search-filter">
                 <select name="major" id="major">
                     <option value="" disabled selected>التخصص</option>
@@ -66,9 +68,6 @@
         <div class="container">
             <!-- question card -->
             <section class="q-card">
-                <section class="q-user-img">
-                    <p>NA</p>
-                </section>
                 <section class="q-content">
                     <section class="q-date">
                         <time dir="ltr" datetime="2012-12-08"
@@ -97,9 +96,6 @@
             </section>
             <!-- question card -->
             <section class="q-card">
-                <section class="q-user-img">
-                    <p>NA</p>
-                </section>
                 <section class="q-content">
                     <section class="q-date">
                         <time dir="ltr" datetime="2012-12-08"
@@ -128,7 +124,7 @@
             </section>
             <!-- add a question button -->
             <section class="add-q">
-                <h3>لم تجد سؤالك المطلوب ؟</h3>
+                <h3 class="search-heading-h3">لم تجد سؤالك المطلوب ؟</h3>
                 <a href="" class="main-btn">اضف سؤال</a>
             </section>
         </div>

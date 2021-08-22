@@ -32,8 +32,7 @@
 
         <!-- css style -->
         <link rel="stylesheet" href="css/common-style.css" />
-        <link rel="stylesheet" href="css/login.css" />
-        <link rel="stylesheet" href="css/create-account.css" />
+        <link rel="stylesheet" href="css/style.css" />
         <!-- favicon -->
         <link
             rel="shortcut icon"
@@ -41,7 +40,7 @@
             href="images/logo-a-plus.svg"
         />
 
-        <title>صفحة إنشاء حساب</title>
+        <title>إنشاء حساب</title>
     </head>
 
     <body>
@@ -51,7 +50,7 @@
         <div class="container">
             <div class="login-details">
                 <div class="login-card">
-                    <h4>إنشاء حساب</h4>
+                    <h4 class="login-heading-h4">إنشاء حساب</h4>
                     <form>
                         <label for="text"> الإسم كامل</label>
                         <input
