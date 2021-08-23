@@ -17,63 +17,6 @@ Route::get('/', function () {
     return view('home-content');
 });
 
-Route::get('/login-user', function () {
-    return view('login-content');
-	
-});
-
-Route::get('/create-account', function () {
-    return view('creat-account-content');
-});
-
-Route::get('/logged-in', function () {
-    return view('logged-content');
-});
-
-Route::get('/about-our-platform', function () {
-    return view('about-content');
-});
-
-Route::get('/our-policy', function () {
-    return view('policy-content');
-});
-
-Route::get('/our-privacy', function () {
-    return view('privacy-content');
-});
-
-Route::get('/contact-to-us', function () {
-    return view('contact-content');
-});
-
-Route::get('/user-account', function () {
-    return view('u-account-cont');
-});
-
-Route::get('/user-questions', function () {
-    return view('u-que-content');
-});
-
-Route::get('/user-contents', function () {
-    return view('u-cont-content');
-});
-
-Route::get('/user-volunteer', function () {
-    return view('volunteer-content');
-});
-Route::get('/add-content', function () {
-    return view('add-content-cont');
-});
-
-Route::get('/content-added', function () {
-    return view('q-notify-cont');
-});
-
-Route::get('/s-reult', function () {
-    return view('searchresult-cont');
-});
-
-// end of pages routes
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
